@@ -5,7 +5,7 @@
 
 [dev]
     publish = "public"
-    node_bundler = "esbuild
+    node_bundler = "esbuild"
 
 [[headers]]
   for = "/.well-known/matrix/*" # you can configure the correct paths here
