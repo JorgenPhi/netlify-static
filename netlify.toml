@@ -5,9 +5,10 @@
 
 [dev]
     publish = "public"
-    node_bundler = "esbuild"
+    node_bundler = "esbuild
 
-[[redirects]]
-    from = "/api/*"
-    to = "/.netlify/functions/:splat"
-    status = 200
+[[headers]]
+  for = "/.well-known/matrix/*" # you can configure the correct paths here
+  [headers.values]
+    access-control-allow-origin = "*"
+    content-type = "application/json"
