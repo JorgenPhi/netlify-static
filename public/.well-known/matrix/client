@@ -1,1 +1,13 @@
-{"m.homeserver":{"base_url":"https://z.plycom.net"},"org.matrix.msc4143.rtc_foci":[{"type":"livekit","livekit_service_url": "https://livekit.plycom.net"}]}
+{
+    "m.homeserver": {
+        "base_url": "https://z.plycom.net"
+    },
+    "org.matrix.msc4143.rtc_foci": [{
+        "type": "livekit",
+        "livekit_service_url": "https://livekit.plycom.net"
+    }],
+    "org.matrix.msc2965.authentication": {
+        "issuer": "https://matrixauth.plycom.net/",
+        "account": "https://matrixauth.plycom.net/account/"
+    }
+}
